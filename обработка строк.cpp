@@ -27,7 +27,7 @@ int main() {
 	cin >> action;
 
 	while (action < 1 || action > 6) {
-		cout << "Выберите любую операцию" << endl;
+		cout << "Выберите операцию" << endl;
 		cout << "Ваш выбор: " << endl;
 		cin >> action;
 	}
