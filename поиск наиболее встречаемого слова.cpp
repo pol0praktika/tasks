@@ -30,7 +30,7 @@ int main()
 {
     while (true)
     {
-        cout << "Введите строку: " << endl;
+        cout << "Enter the line: " << endl;
         unordered_map<string, int> words = calc();
 
         int m = -1;
@@ -43,7 +43,7 @@ int main()
             }
         }
 
-        cout <<"Часто встречающееся слово в строке: " << m1 << endl;
+        cout <<"A frequently occurring word in a string: " << m1 << endl;
     }
     return 0;
 }
