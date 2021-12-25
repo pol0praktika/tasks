@@ -61,7 +61,7 @@ int main()
 			break;
 		}
 		default:
-			cout << "ДЕЙСТВИЕ НЕ ОПРЕДЕЛЕНО";
+			cout << "THE ACTION IS NOT DEFINED";
 			break;
 		}
 		cout << endl << endl;
