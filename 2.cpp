@@ -113,10 +113,9 @@ int main() {
 			transform(secondstr.begin(), secondstr.end(), secondstr.begin(), ::tolower);
 			cout << "Result: " << secondstr << endl;
 			break;
-
-		case 6:
-			cout << "Exit";
 		}
+
+		
 	}
 	return 0;
 }
