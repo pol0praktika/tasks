@@ -15,7 +15,8 @@ int menuOption() {
 	cout << "3 = Concatenation" << endl;
 	cout << "4 = Upper register" << endl;
 	cout << "5 = Lower register" << endl;
-
+	cout << "6 = Exit" << endl;
+        
 	cout << "Your choice: ";
 	cin >> action;
 
